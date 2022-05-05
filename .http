@@ -1,0 +1,23 @@
+
+@limiPage=5
+@ref_query=2
+
+###
+
+# @name getAllPeople
+GET http://localhost:8080/api/people
+
+###
+
+# @name getPeopleQuery
+GET http://localhost:8080/api/people?ref_people={{ref_query}}
+
+###
+
+# @name getPeopleById
+GET  http://localhost:8080/api/people/6272df038f7372bf3bc67192
+
+###
+
+# @name createPeople
+POST http://localhost:8080/api/people

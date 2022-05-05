@@ -1,0 +1,23 @@
+
+Recommend:
+https://merlino.agency/blog/clean-architecture-in-express-js-applications
+
+- Person
+GET: https://ghibliapi.herokuapp.com/people
+GET: https://ghibliapi.herokuapp.com/people/{id}
+
+- CustomApi
+GET:  http://localhost:8080/api/people
+GET:  http://localhost:8080/api/people?ref_people=1&limit=5
+POST: http://localhost:8080/api/people/{id}
+Add fields: who, appearance, history and img.
+
+
+- Film
+GET: https://ghibliapi.herokuapp.com/films
+GET: https://ghibliapi.herokuapp.com/films/{id}
+
+
+- Location
+GET: https://ghibliapi.herokuapp.com/locations
+GET: https://ghibliapi.herokuapp.com/locations/{id}
