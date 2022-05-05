@@ -7,7 +7,7 @@ GET:  http://localhost:8080/api/people
 GET:  http://localhost:8080/api/people?ref_people=1&limit=5
 POST: http://localhost:8080/api/people/{id}
 
-Add fields: film, appearance, history and img.
+Add fields, film, appearance, history and img.
 
 
 - Film
