@@ -1,7 +1,3 @@
-
-Recommend:
-https://merlino.agency/blog/clean-architecture-in-express-js-applications
-
 - Person
 GET: https://ghibliapi.herokuapp.com/people
 GET: https://ghibliapi.herokuapp.com/people/{id}
