@@ -12,6 +12,26 @@
 - ESLint
 - Prettier
 
+## ENV
+
+It is important to add the enviroment variable.
+
+**Default PORT**
+
+```
+# http://localhost:8080
+
+PORT=8080
+```
+
+**Important**
+
+```
+# Cluster MongoDB
+
+MONGODB_URI="You cluster"
+```
+
 ## How To Use
 
 To clone and run this application, you'll need Git and Node.js (which comes with yarn) installed on your computer. From your command line:
