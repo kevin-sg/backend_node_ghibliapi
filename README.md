@@ -18,7 +18,7 @@ To clone and run this application, you'll need Git and Node.js (which comes with
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/kevin-sg/start_backend_node_ts_express.git
+$ git clone https://github.com/kevin-sg/backend_node_ghibliapi.git
 
 # Install dependencies
 $ yarn install
