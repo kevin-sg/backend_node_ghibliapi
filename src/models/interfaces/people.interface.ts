@@ -8,6 +8,7 @@ export interface IPeople {
   ref_people: string;
   appearance: string;
   history: string;
+  film: string;
   img: string;
 }
 

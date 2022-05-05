@@ -35,6 +35,7 @@ class PeopleRoute {
         check("ref_people", "Ref.people is required").notEmpty(),
         check("appearance", "Appearance is required").notEmpty(),
         check("history", "History is required").notEmpty(),
+        check("film", "Film is required").notEmpty(),
         check("img", "Image is required").notEmpty(),
         validationField,
       ],

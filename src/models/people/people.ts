@@ -7,6 +7,7 @@ const PeopleSchema = new Schema(
     ref_people: { type: String, required: [true, "Reference is required"], trim: true },
     appearance: { type: String, required: [true, "Name is required"], trim: true },
     history   : { type: String, required: [true, "Name is required"], trim: true },
+    film      : { type: String, required: [true, "Film is required"], trim: true },
     img       : { type: String },
   },
   { timestamps: true },
