@@ -14,6 +14,7 @@ class PeopleController {
 
   public async getPeople(req: Request, res: Response): Promise<CustomResponse | void> {
     try {
+      // Query
       const { ref_people, page = 1, limit = 50 } = req.query;
 
       if (ref_people?.length) {
@@ -40,6 +41,7 @@ class PeopleController {
 
   public async getPeopleById(req: Request, res: Response): Promise<CustomResponse | void> {
     try {
+      // Rarams
       const { id } = req.params;
 
       const isValidPeople = await People.findById(id);
